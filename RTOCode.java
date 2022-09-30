@@ -4,29 +4,49 @@ public class RTOCode {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the name of the city or district : ");
+        System.out.printl();
         String name = sc.next();
 
         switch (name){
-            case "Mumbai central"  -> System.out.print("RTO Code is : MH 01 " );
-            case "Mumbai west"     -> System.out.print("RTO Code is : MH 02 " );
+            case "Mumbai central"  -> System.out.print("RTO Code of mumbai is : MH 01 " );
+            case "Mumbai west"     -> System.out.print("RTO Code mumbai west is : MH 02 " );
             case "Mumbai east "    -> System.out.print("RTO Code is : MH 03 " );
-            case "Thane"           -> System.out.print("RTO Code is : MH 04 " );
-            case "'Kalyan"         -> System.out.print("RTO Code is : MH 05 " );
-            case "Raigad "         -> System.out.print("RTO Code is : MH 06 " );
-            case "Sindhudurg"      -> System.out.print("RTO Code is : MH 07 " );
-            case "Ratnagiri"       -> System.out.print("RTO Code is : MH 08 " );
-            case "Kolhapur"        -> System.out.print("RTO Code is : MH 09 " );
-            case "Sangli"          -> System.out.print("RTO Code is : MH 10 " );
-            case "Satara"          -> System.out.print("RTO Code is : MH 11 " );
-            case "Pune"            -> System.out.print("RTO Code is : MH 12 " );
-            case "Solapur"         -> System.out.print("RTO Code is : MH 13 " );
-            case "Pimpri"          -> System.out.print("RTO Code is : MH 14 " );
-            case "Nasik"           -> System.out.print("RTO Code is : MH 15 " );
+                 System.out.printl();
+            case "Thane"-> System.out.print("RTO Code is : MH 04 " );
+                 System.out.printl();
+            case "'Kalyan"-> System.out.print("RTO Code is : MH 05 " );
+                 System.out.printl(); 
+            case "Raigad "-> System.out.print("RTO Code is : MH 06 " ); 
+                 System.out.printl();
+            case "Sindhudurg"-> System.out.print("RTO Code is : MH 07 " );
+                 System.out.printl();
+            case "Ratnagiri"-> System.out.print("RTO Code is : MH 08 " );
+                 System.out.printl();
+            case "Kolhapur -> System.out.print("RTO Code is : MH 09 " );
+                 System.out.printl();
+            case "Sangli" -> System.out.print("RTO Code is : MH 10 " );
+                 System.out.printl();
+            case "Satara"-> System.out.print("RTO Code is : MH 11 " );
+                 System.out.printl();
+            case "Pune" -> System.out.print("RTO Code is : MH 12 " );
+                 System.out.printl();
+           
+                   
+                 
             case "Ahmednagar"      -> System.out.print("RTO Code is : MH 16 " );
+                                                       -> System.out.print("RTO Code is : MH 14 " );
             case "Shrirampur"      -> System.out.print("RTO Code is : MH 17 " );
+                 System.out.printl();
+                
             case "Dhule"           -> System.out.print("RTO Code is : MH 18 " );
+                 System.out.printl();
+                
             case "Jalgaon"         -> System.out.print("RTO Code is : MH 19 " );
+                 System.out.printl();
+                
             case "Aurangabad"      -> System.out.print("RTO Code is : MH 20 " );
+                 System.out.printl();
+                
             case "Jalna"           -> System.out.print("RTO Code is : MH 21 " );
             case "Parbhani"        -> System.out.print("RTO Code is : MH 22 " );
             case "Beed "           -> System.out.print("RTO Code is : MH 23 " );
@@ -40,6 +60,8 @@ public class RTOCode {
             case "Nagpur"          -> System.out.print("RTO Code is : MH 31 " );
             case "Wardha"          -> System.out.print("RTO Code is : MH 32 " );
             case "Gadchiroli"      -> System.out.print("RTO Code is : MH 33 " );
+                 System.out.printl();
+                
             case "Chandrapur"      -> System.out.print("RTO Code is : MH 34 " );
             case "Gondia"          -> System.out.print("RTO Code is : MH 35 " );
             case "Bhandara"        -> System.out.print("RTO Code is : MH 36 " );
@@ -58,66 +80,7 @@ public class RTOCode {
             case "Nagpur east"     -> System.out.print("RTO Code is : MH 49 " );
             case "Karad"           -> System.out.print("RTO Code is : MH 50 " );
             default                -> System.out.println("Please Enter the Valid Name");
-        }
-        
-        switch (name){
-            case "Mumbai central"  -> System.out.print("you have entered Mumbai Central " );
-            case "Mumbai west"     -> System.out.print("Mumbai west" );
-            case "Mumbai east "    -> System.out.print("this is mumbai west" );
-            case "Thane"           -> System.out.print("thane" );
-            case "'Kalyan"         -> System.out.print("kalyan" );
-            case "Raigad "         -> System.out.print("raigad " );
-            case "Sindhudurg"      -> System.out.print("sinhgad" );
-            case "Ratnagiri"       -> System.out.print("ratnagiri " );
-            case "Kolhapur"        -> System.out.print("kolhapur " );
-            case "Sangli"          -> System.out.print("sangli " );
-            case "Satara"          -> System.out.print("satara" );
-            case "Pune"            -> System.out.print("pune " );
-            case "Solapur"         -> System.out.print("solapur " );
-            case "Pimpri"          -> System.out.print("pimpri " );
-            case "Nasik"           -> System.out.print("nasik " );
-            case "Ahmednagar"      -> System.out.print("ahmed " );
-            case "Shrirampur"      -> System.out.print("sgri" );
-            case "Dhule"           -> System.out.print("dhule " );
-            case "Jalgaon"         -> System.out.print("jalgaon " );
-            case "Aurangabad"      -> System.out.print("auranga" );
-            case "Jalna"           -> System.out.print("jalna " );
-            case "Parbhani"        -> System.out.print("parbhani " );
-            case "Beed "           -> System.out.print("beed " );
-            case "Latur"           -> System.out.print("latur " );
-            case "Osmanabad"       -> System.out.print("osmanabad" );
-            case "Nanded"          -> System.out.print("nanded" );
-            case "Amravati"        -> System.out.print("amravati" );
-            case "Buldhana"        -> System.out.print("buldhana" );
-            case "Yavatmal"        -> System.out.print("yavatmal " );
-            case "Akola"           -> System.out.print("akola" );
-            case "Nagpur"          -> System.out.print("nagpur " );
-            case "Wardha"          -> System.out.print("wardha " );
-            case "Gadchiroli"      -> System.out.print("gad" );
-            case "Chandrapur"      -> System.out.print("chandra" );
-            case "Gondia"          -> System.out.print("gondia" );
-            case "Bhandara"        -> System.out.print("bhandara" );
-            case "Washim"          -> System.out.print("washim " );
-            case "Hingoli"         -> System.out.print("hingoli" );
-            case "Nandurbar"       -> System.out.print("nana" );
-            case "Nagpur rular"    -> System.out.print("nagpur" );
-            case "Malegaon"        -> System.out.print("malegaon " );
-            case "Baramati"        -> System.out.print("malegaon " );
-            case "Navi mumbai "    -> System.out.print("baramati " );
-            case "Ambejogai"       -> System.out.print("ambejo");
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                      
-            case "Akluj"           -> System.out.print("aklu " );
-            case "Panvel"          -> System.out.print("pam " );
-            case "Borivali"        -> System.out.print("boriva " );
-            case "Vasai"           -> System.out.print("varasi " );
-            case "Nagpur east"     -> System.out.print("nagpur east " );
-            case "Karad"           -> System.out.print("karad " );
-            default                -> System.out.println("Please Enter the Valid Name");
+                System.out.println("thanks for visiting");
         }
         System.out.println("\nThank you!");
 
